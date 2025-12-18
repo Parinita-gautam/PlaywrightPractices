@@ -9,6 +9,8 @@ export class BookingFlight{
         this.returnTo=page.getByLabel('To:');
         this.depatureDate=page.getByRole('textbox', { name: 'Departure Date:' });
         this.ReturnDate=page.getByRole('textbox', { name: 'Return Date:' });
+        this.passengers=page.getByLabel('Passengers');
+        this.travelClass=page.getByLabel('Travel Class');
         this.search_flight=page.getByRole('button', { name: 'Search Flights' });
         this.flightTicketDepature=page.getByRole('button', { name: 'Global Wings (GW205) - Departure' });
         this.flightTicket=page.getByRole('button', { name: 'Global Wings (GW206) - Return' });
@@ -29,6 +31,8 @@ export class BookingFlight{
         await this.returnTo.selectOption('Delhi');
         await this.depatureDate.fill('2025-12-18');
         await this.ReturnDate.fill('2025-12-31');
+        await this.passengers.fill('2');
+        await this.travelClass.selectOption('Economy');
         await this.search_flight.click();
         await this.flightTicketDepature.click();
         await this.flightTicket.click();
