@@ -23,5 +23,5 @@ No real user or payment data is used.
 - used Page Object Model
 - used selector getByRole, getByPlaceholder, getByLabel, XMl, Loctors (id, css)
 
-## Tried my best but since it is my 1st automation project, only used basic concept are used.
+## Tried my best but since it is my 1st automation project, only basic concept are used.
 
