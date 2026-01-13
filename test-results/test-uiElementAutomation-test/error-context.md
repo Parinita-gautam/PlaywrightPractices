@@ -1,0 +1,343 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - 'heading "TesterBud: Dummy Login Page to Practice and Automate" [level=1] [ref=e6]'
+        - paragraph [ref=e7]: Explore our dummy login websites and hone your skills in automating login forms and submission processes. Ideal for Selenium, Cypress, and more.
+        - paragraph [ref=e8]: Practise, Create Test case, Automate it and become more confident Frontend automation expert. 🚀
+      - img "Automation Illustration" [ref=e12]
+    - navigation [ref=e13]:
+      - generic [ref=e14]:
+        - link "TesterBud" [ref=e15] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e17]:
+          - link "Features" [ref=e18] [cursor=pointer]:
+            - /url: /practice-page-selection
+          - button "Practice Sites" [ref=e20] [cursor=pointer]
+          - link "About" [ref=e21] [cursor=pointer]:
+            - /url: /AboutPage
+    - generic [ref=e23]:
+      - heading "Explore and Automate UI Elements" [level=2] [ref=e24]
+      - paragraph [ref=e25]:
+        - generic [ref=e26]: Explore and Automate UI Elements is your hands-on playground to understand and practice UI automation. Interact with different UI components, observe their behaviors, and see real-time outputs to enhance your automation skills. This page helps you learn how to automate elements like buttons, checkboxes, dropdowns, tables, and more—making it easier to build robust automation scripts for testing! 🚀
+      - heading "Basic Elements" [level=3] [ref=e27]
+      - generic [ref=e28]:
+        - generic [ref=e30]:
+          - generic [ref=e31]: "Text Field (Input Box):"
+          - textbox "Text Field (Input Box):" [ref=e32]: hello
+        - generic [ref=e33]:
+          - generic [ref=e34]: "Output:"
+          - generic [ref=e35]: hello
+      - generic [ref=e36]:
+        - generic [ref=e38]:
+          - generic [ref=e39]: "Text Area:"
+          - textbox "Text Area:" [ref=e40]: What the plan for today Automation
+        - generic [ref=e41]:
+          - generic [ref=e42]: "Output:"
+          - generic [ref=e43]: What the plan for today Automation
+      - generic [ref=e44]:
+        - generic [ref=e46]:
+          - generic [ref=e47]: "Button:"
+          - button "Click Me" [ref=e48] [cursor=pointer]
+        - generic [ref=e49]:
+          - generic [ref=e50]: "Output:"
+          - generic [ref=e51]: Clicked 1 times
+      - generic [ref=e52]:
+        - generic [ref=e54]:
+          - generic [ref=e55]: "Checkbox (Single):"
+          - generic [ref=e56]:
+            - checkbox [checked] [ref=e57]
+            - generic [ref=e58]: Single Option
+        - generic [ref=e59]:
+          - generic [ref=e60]: "Output:"
+          - generic [ref=e61]: Checked
+      - generic [ref=e62]:
+        - generic [ref=e64]:
+          - generic [ref=e65]: "Checkboxes (Multiple):"
+          - generic [ref=e66]:
+            - generic [ref=e67]:
+              - checkbox [checked] [ref=e68]
+              - generic [ref=e69]: Option 1
+            - generic [ref=e70]:
+              - checkbox [checked] [ref=e71]
+              - generic [ref=e72]: Option 2
+            - generic [ref=e73]:
+              - checkbox [ref=e74]
+              - generic [ref=e75]: Option 3
+        - generic [ref=e76]:
+          - generic [ref=e77]: "Output:"
+          - generic [ref=e78]: "Checked: option1, option2"
+      - generic [ref=e79]:
+        - generic [ref=e81]:
+          - generic [ref=e82]: "Radio Buttons:"
+          - generic [ref=e83]:
+            - generic [ref=e84]:
+              - radio [checked] [ref=e85]
+              - generic [ref=e86]: Radio 1
+            - generic [ref=e87]:
+              - radio [ref=e88]
+              - generic [ref=e89]: Radio 2
+            - generic [ref=e90]:
+              - radio [ref=e91]
+              - generic [ref=e92]: Radio 3
+        - generic [ref=e93]:
+          - generic [ref=e94]: "Output:"
+          - generic [ref=e95]: Radio 1
+      - generic [ref=e96]:
+        - generic [ref=e98]:
+          - generic [ref=e99]: "Dropdown (Single Select):"
+          - combobox "Dropdown (Single Select):" [ref=e100]:
+            - option "Select a country"
+            - option "USA" [selected]
+            - option "Canada"
+            - option "UK"
+            - option "India"
+            - option "Australia"
+        - generic [ref=e101]:
+          - generic [ref=e102]: "Output:"
+          - generic [ref=e103]: USA
+      - generic [ref=e104]:
+        - generic [ref=e106]:
+          - generic [ref=e107]: "Dropdown (Multi-Select):"
+          - listbox "Dropdown (Multi-Select):" [ref=e108]:
+            - option "Option A" [ref=e109]
+            - option "Option B" [selected] [ref=e110]
+            - option "Option C" [ref=e111]
+            - option "Option D" [ref=e112]
+        - generic [ref=e113]:
+          - generic [ref=e114]: "Output:"
+          - generic [ref=e115]: Option B
+      - heading "Interactive Elements" [level=3] [ref=e116]
+      - generic [ref=e117]:
+        - generic [ref=e119]:
+          - generic [ref=e120]: "Link (Anchor Tag):"
+          - link "Click Me" [ref=e121] [cursor=pointer]:
+            - /url: /practice-different-ui-elements
+        - generic [ref=e122]:
+          - generic [ref=e123]: "Output:"
+          - generic [ref=e124]: Click the link
+      - generic [ref=e125]:
+        - generic [ref=e127]:
+          - generic [ref=e128]: "Image:"
+          - img "Placeholder" [ref=e129] [cursor=pointer]
+        - generic [ref=e130]:
+          - generic [ref=e131]: "Output:"
+          - generic [ref=e132]: Click the image
+      - generic [ref=e133]:
+        - generic [ref=e135]:
+          - generic [ref=e136]: "Table & Grid:"
+          - table [ref=e137]:
+            - rowgroup [ref=e138]:
+              - row "ID Name Age" [ref=e139]:
+                - columnheader "ID" [ref=e140] [cursor=pointer]
+                - columnheader "Name" [ref=e141] [cursor=pointer]
+                - columnheader "Age" [ref=e142] [cursor=pointer]
+            - rowgroup [ref=e143]:
+              - row "3 Bob 25" [ref=e144]:
+                - cell "3" [ref=e145]
+                - cell "Bob" [ref=e146]
+                - cell "25" [ref=e147]
+              - row "4 Nat 25" [ref=e148]:
+                - cell "4" [ref=e149]
+                - cell "Nat" [ref=e150]
+                - cell "25" [ref=e151]
+              - row "1 Zui 30" [ref=e152]:
+                - cell "1" [ref=e153]
+                - cell "Zui" [ref=e154]
+                - cell "30" [ref=e155]
+              - row "5 Ashley 30" [ref=e156]:
+                - cell "5" [ref=e157]
+                - cell "Ashley" [ref=e158]
+                - cell "30" [ref=e159]
+              - row "2 Charlie 35" [ref=e160]:
+                - cell "2" [ref=e161]
+                - cell "Charlie" [ref=e162]
+                - cell "35" [ref=e163]
+              - row "6 Jim 35" [ref=e164]:
+                - cell "6" [ref=e165]
+                - cell "Jim" [ref=e166]
+                - cell "35" [ref=e167]
+          - paragraph [ref=e168]: "Sorted by: age"
+        - generic [ref=e169]:
+          - generic [ref=e170]: "Output:"
+          - generic [ref=e171]: Table sorted by age
+      - generic [ref=e172]:
+        - generic [ref=e174]:
+          - generic [ref=e175]: "Tooltip:"
+          - text: Hover Me
+        - generic [ref=e176]:
+          - generic [ref=e177]: "Output:"
+          - generic [ref=e178]: Hover over "Hover Me"
+      - generic [ref=e179]:
+        - generic [ref=e181]:
+          - generic [ref=e182]: "Slider:"
+          - slider [ref=e183]: "50"
+        - generic [ref=e184]:
+          - generic [ref=e185]: "Output:"
+          - generic [ref=e186]: "Slider Value: 50"
+      - generic [ref=e187]:
+        - generic [ref=e189]:
+          - generic [ref=e190]: "Progress Bar:"
+          - progressbar [ref=e192]: 30%
+          - button "Increment Progress" [ref=e193] [cursor=pointer]
+        - generic [ref=e194]:
+          - generic [ref=e195]: "Output:"
+          - generic [ref=e196]: "Progress: 30%"
+      - heading "Complex UI Components" [level=3] [ref=e197]
+      - generic [ref=e198]:
+        - generic [ref=e200]:
+          - generic [ref=e201]: "Modal & Popup:"
+          - button "Show Modal" [ref=e202] [cursor=pointer]
+        - generic [ref=e203]:
+          - generic [ref=e204]: "Output:"
+          - generic [ref=e205]: Modal is open
+      - generic [ref=e206]:
+        - generic [ref=e208]:
+          - generic [ref=e209]: "Date Picker & Calendar:"
+          - textbox "YYYY-MM-DD (Simulated)" [ref=e210]: 2002-12-12
+          - paragraph [ref=e211]: (This is a basic input for demonstration. Integrate a datepicker library for full functionality)
+        - generic [ref=e212]:
+          - generic [ref=e213]: "Output:"
+          - generic [ref=e214]: 2002-12-12
+      - generic [ref=e215]:
+        - generic [ref=e217]:
+          - generic [ref=e218]: "File Upload & Download:"
+          - button "Choose File" [ref=e219] [cursor=pointer]
+          - button "Simulate Download" [ref=e220] [cursor=pointer]
+        - generic [ref=e221]:
+          - generic [ref=e222]: "Output:"
+          - generic [ref=e223]:
+            - text: No file selected
+            - text: (Download simulated via alert)
+      - generic [ref=e224]:
+        - generic [ref=e226]:
+          - generic [ref=e227]: "Drag and Drop Elements:"
+          - generic [ref=e228]: Drag Me
+          - generic [ref=e229]: Drop Here
+        - generic [ref=e230]:
+          - generic [ref=e231]: "Output:"
+          - generic [ref=e232]: Drag "Drag Me" to "Drop Here"
+      - generic [ref=e233]:
+        - generic [ref=e235]:
+          - generic [ref=e236]: "Iframe:"
+          - iframe [ref=e237]:
+            - generic [ref=f1e2]:
+              - heading "Example Domain" [level=1] [ref=f1e3]
+              - paragraph [ref=f1e4]: This domain is for use in documentation examples without needing permission. Avoid use in operations.
+              - paragraph [ref=f1e5]:
+                - link "Learn more" [ref=f1e6] [cursor=pointer]:
+                  - /url: https://iana.org/domains/example
+        - generic [ref=e238]:
+          - generic [ref=e239]: "Output:"
+          - generic [ref=e240]: Iframe loaded
+      - heading "Advanced UI Elements" [level=3] [ref=e241]
+      - generic [ref=e242]:
+        - generic [ref=e244]:
+          - generic [ref=e245]: "Dynamic Content (Simulated):"
+          - generic [ref=e246]: Initial Content
+          - button "Update Content" [ref=e247] [cursor=pointer]
+        - generic [ref=e248]:
+          - generic [ref=e249]: "Output:"
+          - generic [ref=e250]: Click "Update Content" to see changes
+      - generic [ref=e251]:
+        - generic [ref=e253]:
+          - generic [ref=e254]: "Notifications & Toast Messages:"
+          - button "Show Notification" [ref=e255] [cursor=pointer]
+        - generic [ref=e256]:
+          - generic [ref=e257]: "Output:"
+          - generic [ref=e258]: Click "Show Notification"
+      - generic [ref=e259]:
+        - generic [ref=e261]:
+          - generic [ref=e262]: "Tabs:"
+          - generic [ref=e263]:
+            - button "Tab 1" [ref=e265] [cursor=pointer]
+            - button "Tab 2" [ref=e267] [cursor=pointer]
+        - generic [ref=e268]:
+          - generic [ref=e269]: "Output:"
+          - generic [ref=e270]: "Active Tab: tab1"
+      - generic [ref=e271]:
+        - generic [ref=e273]:
+          - generic [ref=e274]: "Accordion:"
+          - generic [ref=e275]:
+            - 'heading "Accordion Item #1" [level=2] [ref=e277]':
+              - 'button "Accordion Item #1" [ref=e278] [cursor=pointer]'
+            - 'heading "Accordion Item #2" [level=2] [ref=e280]':
+              - 'button "Accordion Item #2" [ref=e281] [cursor=pointer]'
+        - generic [ref=e282]:
+          - generic [ref=e283]: "Output:"
+          - generic [ref=e284]: Open an accordion item
+      - generic [ref=e285]:
+        - generic [ref=e287]:
+          - generic [ref=e288]: "Virtual Scrolling (Simulated):"
+          - generic [ref=e290]:
+            - generic [ref=e291]: Item 1
+            - generic [ref=e292]: Item 2
+            - generic [ref=e293]: Item 3
+            - generic [ref=e294]: Item 4
+            - generic [ref=e295]: Item 5
+            - generic [ref=e296]: Item 6
+            - generic [ref=e297]: Item 7
+            - generic [ref=e298]: Item 8
+            - generic [ref=e299]: Item 9
+            - generic [ref=e300]: Item 10
+            - generic [ref=e301]: Item 11
+            - generic [ref=e302]: Item 12
+            - generic [ref=e303]: Item 13
+            - generic [ref=e304]: Item 14
+            - generic [ref=e305]: Item 15
+            - generic [ref=e306]: Item 16
+            - generic [ref=e307]: Item 17
+            - generic [ref=e308]: Item 18
+            - generic [ref=e309]: Item 19
+            - generic [ref=e310]: Item 20
+            - generic [ref=e311]: Item 21
+            - generic [ref=e312]: Item 22
+            - generic [ref=e313]: Item 23
+            - generic [ref=e314]: Item 24
+            - generic [ref=e315]: Item 25
+            - generic [ref=e316]: Item 26
+            - generic [ref=e317]: Item 27
+            - generic [ref=e318]: Item 28
+            - generic [ref=e319]: Item 29
+            - generic [ref=e320]: Item 30
+            - generic [ref=e321]: Item 31
+            - generic [ref=e322]: Item 32
+            - generic [ref=e323]: Item 33
+            - generic [ref=e324]: Item 34
+            - generic [ref=e325]: Item 35
+            - generic [ref=e326]: Item 36
+            - generic [ref=e327]: Item 37
+            - generic [ref=e328]: Item 38
+            - generic [ref=e329]: Item 39
+            - generic [ref=e330]: Item 40
+            - generic [ref=e331]: Item 41
+            - generic [ref=e332]: Item 42
+            - generic [ref=e333]: Item 43
+            - generic [ref=e334]: Item 44
+            - generic [ref=e335]: Item 45
+            - generic [ref=e336]: Item 46
+            - generic [ref=e337]: Item 47
+            - generic [ref=e338]: Item 48
+            - generic [ref=e339]: Item 49
+            - generic [ref=e340]: Item 50
+          - paragraph [ref=e341]: Scroll to simulate virtual scrolling
+        - generic [ref=e342]:
+          - generic [ref=e343]: "Output:"
+          - generic [ref=e344]: "Scroll Position: 0"
+    - contentinfo [ref=e345]:
+      - generic [ref=e346]:
+        - paragraph [ref=e347]: Ready to start automating? Explore, practice, and master!
+        - text: © 2025 TesterBud | Built for learners by learners 🚀
+  - dialog [active] [ref=e349]:
+    - generic [ref=e350]:
+      - generic [ref=e351]:
+        - generic [ref=e352]: This is a Modal
+        - button "Close" [ref=e353] [cursor=pointer]
+      - generic [ref=e354]: React Bootstrap Modal Example.
+      - generic [ref=e355]:
+        - button "Close" [ref=e356] [cursor=pointer]
+        - button "Save Changes" [ref=e357] [cursor=pointer]
+```
